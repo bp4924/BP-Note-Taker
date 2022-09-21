@@ -14,7 +14,6 @@ module.exports = function (app) {
 
   app.post("/api/notes", function (req, res) {
     let newNote = req.body;
-    console.log(newNote);
     newnote.id = uniqid();
     data.push(newNote);
 
@@ -27,9 +26,11 @@ module.exports = function (app) {
   app.delete("/api/notes/:id", function (req, res) {
     let noteId = req.params.id;
     let newId = 0;
+
     data = data.filter((currentNote) => {
       return currentNote.id != noteId;
     });
+
     for (currentNote of data) {
       currentNote.id = newId.toString();
       newId++;
