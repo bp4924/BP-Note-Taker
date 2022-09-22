@@ -63,6 +63,6 @@ Copyright © 2022. All rights reserved.
 - ### LinkedIn
   [berniepetters](https://linkedin.com/in/berniepetters)
 
-## Demo Video
+## Deployed URL
 
 [Heroku deployment](https://bp-note-taker.herokuapp.com/notes)
