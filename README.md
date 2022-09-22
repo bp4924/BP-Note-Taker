@@ -18,7 +18,8 @@ GT Coding Bootcamp Challenge 11
   - [Tests](#tests)
   - [Contributing](#contributing)
   - [Questions](#questions)
-  - [Demo Video](#demo-video)
+  - [Screenshot](#screenshot)
+  - [Deployment Link](#deployment-link)
 
 ## Description
 
@@ -63,6 +64,10 @@ Copyright © 2022. All rights reserved.
 - ### LinkedIn
   [berniepetters](https://linkedin.com/in/berniepetters)
 
-## Deployed URL
+## Screenshot
+
+![App Screenshot](./assets/ss1.jpg)
+
+## Deployment Link
 
 [Heroku deployment](https://bp-note-taker.herokuapp.com/notes)
