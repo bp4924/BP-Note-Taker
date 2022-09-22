@@ -14,7 +14,7 @@ module.exports = function (app) {
 
   app.post("/api/notes", function (req, res) {
     let newNote = req.body;
-    newnote.id = uniqid();
+    newNote.id = uniqid();
     data.push(newNote);
 
     fs.writeFileSync("./db/db.json", JSON.stringify(data), function (err) {
